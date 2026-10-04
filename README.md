@@ -17,11 +17,11 @@ Konsep OOP yang diterapkan:
 - **Encapsulation**: Menyembunyikan data sensitif seperti harga dan perhitungan pajak
 - **Inheritance**: Memanfaatkan struktur hierarki (`MenuItem` sebagai induk, `Makanan` dan `Minuman` sebagai anak)
 - **Polymorphism**: Pemanggilan fungsi `tampilkanDetail()` dan `siapkanPesanan()` yang menyesuaikan perilakunya dengan tipe objek (Makanan atau Minuman)
-- **Abstraction**: Menggunakan interface (`IPrintable`) dan abstract class (`MenuItem`)
+- **Abstraction**: Menggunakan interface murni (`IPrintable`) dan abstract class (`MenuItem`)
 
 ---
 
-## Anggota Projek (NIM | Nama)
+## Anggota Project (NIM | Nama)
 
 - 25/557140/TK/62874 | Muhammad Yusuf Akbar
 - 25/564730/TK/63707 | Suqyan Yanur Aji
@@ -52,7 +52,7 @@ Struktur direktori proyek dipisahkan ke dalam folder modular `include` dan `src`
 
 ---
 
-## Cara Menjalankan Projek
+## Cara Menjalankan Project
 
 ### Persyaratan Sistem
 
