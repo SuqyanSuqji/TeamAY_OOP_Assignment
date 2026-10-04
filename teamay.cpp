@@ -147,7 +147,7 @@ public:
       return;
     }
 
-    cout << "\nSTRUK PEMESANAN" << endl;
+    cout << "\nNOTA PEMESANAN" << endl;
     cout << "=================================" << endl;
 
     double subtotal = 0.0;
