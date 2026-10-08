@@ -29,7 +29,7 @@ void MesinKasir::tampilkanKatalog() {
 
 void MesinKasir::tambahKePesanan(int indexMenu, int jumlahPorsi) {
   if (indexMenu < 1 || indexMenu > (int)daftarMenu.size()) {
-    cout << "Nomor menu tidak valid!\n";
+    cout << "Nomor menu tidak valid!\n\n";
     return;
   }
 
@@ -54,7 +54,7 @@ void MesinKasir::tambahKePesanan(int indexMenu, int jumlahPorsi) {
 
 void MesinKasir::cetakNota() {
   if (daftarPesanan.empty()) {
-    cout << "\nKeranjang pesanan masih kosong!\n";
+    cout << "\nPesanan masih kosong!\n\n";
     return;
   }
 

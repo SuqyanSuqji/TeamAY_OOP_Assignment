@@ -62,10 +62,10 @@ void interface(MesinKasir& kasir) {
       kasir.cetakNota();
       break;
     case 4:
-      cout << "\nProgram ditutup. Terima kasih!\n";
+      cout << "\nProgram ditutup. Terima kasih!\n\n";
       break;
     default:
-      cout << "\nPilihan tidak valid! Silakan coba lagi.\n";
+      cout << "\nPilihan tidak valid! Silakan coba lagi.\n\n";
     }
   } while (pilihan != 4);
 }
